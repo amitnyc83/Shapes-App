@@ -1,0 +1,112 @@
+.App {
+  background: #E6E6FA;
+  height: 100vh;
+  padding: 50px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  margin: 20vh auto;
+  border: 20px;
+  width: 50%;
+  height: 50%;
+  background-color: bisque;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  max-width:30%;
+  border:1px solid red;
+  margin:auto;
+}
+
+.wrapper-item {
+  flex-direction: column;
+}
+
+.shape-list-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  border: 10px;
+  margin: 10px;
+  background-color: bisque;
+}
+
+/* .shape-list-item {
+
+} */
+
+/* .shape {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+} */
+
+
+.color-picker-palette {
+  position: absolute;
+  z-index: 100;
+}
+
+.color-picker-cover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+.square {
+  height: "50px";
+  width: "50px";
+  background-color: "#555";
+}
+
+
+.circle {
+  height: "50px";
+  width: "50px";
+  color: "#555";
+  background-color: "50%";
+}
+
+
+.rectangle {
+  height: "50px";
+  width: "100px";
+  background-color: "#555";
+}
+
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: "25px solid transparent";
+  border-right: "25px transparent";
+  border-bottom: "50px solid #555";
+  background-color: "#555";
+}
+
+
+
+
+
+
+
