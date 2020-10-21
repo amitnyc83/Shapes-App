@@ -2,7 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 To run this project locally, clone the project and type "git clone" with the copied project.
-Then cd into the "selecting-shapes-app" folder and run "npm start". A window should open in your browser with the project on "http://localhost:3000".
+
+Then cd into the "SHAPES-APP" folder and run "npm install" to add all dependacies. 
+
+To run the app, type "npm start" to start a localserver.
+
+A window should open in your browser with the project on "http://localhost:3000".
 
 
 
