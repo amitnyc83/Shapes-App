@@ -21,7 +21,7 @@ import './ShapeCard.css'
 
 const ShapeCard = ({ style, color, id, title, deleteShape}) => (
     <div className={style} color={title} key={id}>
-      {title}
+      {color}
       <br></br>
       <DeleteIcon onClick={() => deleteShape(id)}/>
     </div>
