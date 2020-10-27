@@ -4,28 +4,17 @@ import './ShapeCard.css'
 
 
 
-
-
-// const Card = styled.div`
-// display: flex;
-// flex-direction: row;
-// justify-content: center;
-// align-items: center;
-// padding: 70px;
-// margin: 10vh auto;
-// border: 20px;
-// width: 50%;
-// height: auto;
-// background-color: bisque;
-// `;
-
-const ShapeCard = ({ style, color, id, title, deleteShape}) => (
-    <div className={style} color={title} key={id}>
-      {color}
-      <br></br>
-      <DeleteIcon onClick={() => deleteShape(id)}/>
+const ShapeCard = ({shape, color, deleteShape}) => (
+  <div className={shape.shape} style={{ backgroundColor: shape.color } } key={shape.id}>
+    <p>{shape.text}</p>
+    <br></br>
+    <div>
+      {shape ? <DeleteIcon onClick={() => deleteShape(shape.id)}/> : <p>Loading...</p>}
     </div>
+  </div>     
 );
 
-export default ShapeCard;
 
+
+
+export default ShapeCard;

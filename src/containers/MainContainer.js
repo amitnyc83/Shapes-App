@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ShapeForm from '../components/ShapeForm' 
 import styled from 'styled-components'
 
@@ -6,23 +6,25 @@ import styled from 'styled-components'
 const Container = styled.div`
    display: flex;
    flex-direction: column;
-   margin:0px auto;
-   width: 50%;
+   flex-wrap: nowrap;
+   justify-content: space-around;
    align-items: center;
+   margin: 20px;
+   width: 50%;
    text-align: center;
-   border: 20px;
-   heigth: auto;
-   background-color: bisque;
-   `;
+   height: 50vh;
+   border-style: solid;
+`;
 
 const MainContainer = () => {
-
- return(
-     <Container>
-         <ShapeForm />
-     </Container>
-   );
+    return(
+        <Container>
+            <ShapeForm />
+        </Container>
+      );
 };
-
-
+   
+   
 export default MainContainer;
+
+
